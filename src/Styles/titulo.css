@@ -1,0 +1,25 @@
+/* TaskList.css */
+
+body {
+    margin: 0; /* Remove margens padrão do body */
+    display: flex; /* Usado para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha no topo */
+    height: 100vh; /* Usa a altura total da viewport */
+}
+
+.container {
+    text-align: center; /* Centraliza o texto dentro do container */
+    margin-top: 20px; /* Espaçamento do topo */
+}
+
+.title {
+    font-size: 2rem; /* Tamanho da fonte do título */
+    color: #4A90E2; /* Cor do título */
+}
+
+.error {
+    color: #D9534F; /* Cor para a mensagem de erro */
+    font-size: 1.2rem; /* Tamanho da fonte da mensagem de erro */
+    margin-top: 10px; /* Espaçamento acima da mensagem de erro */
+}
